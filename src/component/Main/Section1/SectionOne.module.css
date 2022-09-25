@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    margin-top: 150px;
+    background-color: #0C2238;
+    width: 100%;
+
+}
+.container_btn{
+   
+    margin-left: 250px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    width: 250px;
+    height: 94px;
+    background-color: #1B3958;
+    border-bottom: 1px solid black;
+}
+.btn:last-child{
+    border: none;
+}
+._active{
+    background-color: #255C95;
+}
+.img{
+    height: 380px;
+}
